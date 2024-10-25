@@ -1,0 +1,43 @@
+
+
+
+/* div{
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+}
+input
+{
+  border: none;
+  padding: 10px;
+  width: 85%;
+  border-radius: 5px;
+  outline: 1px solid gray;
+  margin: 10px 0px;
+}
+button
+{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+} */
+
+.bg-cyan
+{
+  background-color: darkslategray !important;
+}
+
+.custom-btn
+{
+  background-color: darkslategray !important;
+  color: white !important;
+  transition: all 0.5s !important;
+}
+.custom-btn:hover
+{
+  background-color: transparent !important;
+  color: darkslategray !important;
+}

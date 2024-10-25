@@ -1,0 +1,19 @@
+
+<div class="my-5">
+  <table>
+    <thead>
+      <tr>
+        <th class="p-5 border">Student Name</th>
+        <th class="p-5 border">Student Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (item of Students; track $index) {
+        <tr>
+          <td class="p-5 border">{{item.Name}}</td>
+          <td class="p-5 border">{{item.Age}}</td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,41 @@
+ input[type="submit"]
+{
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: darkcyan;
+  color: white;
+  font-weight: bolder;
+   width: 10%;
+   cursor: pointer;
+   transition: all 0.5s;
+}
+ input[type="submit"]:hover
+{
+  background-color: white;
+  color: darkcyan;
+}
+
+div{
+  padding: 30px;
+  border-radius: 0;
+  border-bottom: 1px solid gray;
+}
+p{
+  color: red;
+  font-weight: bold;
+  text-align: start;
+  margin-left: 100px;
+}
+input[disabled]
+{
+  opacity: 0.5;
+}
+input[disabled]:hover
+{
+  background-color: darkcyan;
+  color: white;
+  opacity: 0.5;
+}
+

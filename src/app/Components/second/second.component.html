@@ -1,0 +1,10 @@
+<div class="my-5 p-5">
+  <img class="main"  [src]=PicsArray[currentIndex]>
+  <div class="Images">
+     <button (click)="next()" [disabled]="NextDisabled">Next</button>
+     <button (click)="Previous()" [disabled]="PreviousDisabled">Previous</button>
+     <button (click)="Slide()">Slide</button>
+     <button (click)="Stop()">Stop</button>
+
+  </div>
+</div>

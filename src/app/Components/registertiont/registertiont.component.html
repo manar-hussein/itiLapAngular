@@ -1,0 +1,14 @@
+<div>
+
+    <input type="text" placeholder="Enter Student Name" [(ngModel)]="student.Name">
+    <p *ngIf="student.Name && student.Name.length < 3">Name Should be More Than 3 Characters</p>
+    <input type="number" placeholder="Enter Student Age" [(ngModel)]="student.Age">
+    <p *ngIf="student.Age<20 || student.Age > 40">Age Should Be Within Range 20 - 40</p>
+      @if(student.Name == null || student.Age == null ||student.Age<20 || student.Age > 40 || student.Name.length < 3)
+      {
+        <input type="submit" value="Add" disabled>
+      }@else {
+        <input type="submit" (click)="AddStudent()" value="Add">
+      }
+
+</div>

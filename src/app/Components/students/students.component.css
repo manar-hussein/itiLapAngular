@@ -1,0 +1,14 @@
+div{
+  display: flex;
+  justify-content: center;
+}
+
+table
+{
+
+}
+
+.border
+{
+  border: 1px solid gray;
+}
